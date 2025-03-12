@@ -22,13 +22,13 @@ interface Stat {
 const stats: Stat[] = [
   {
     icon: Globe,
-    value: "500+",
+    value: "50+",
     label: "Hackathons Hosted",
     color: "from-blue-600 to-cyan-500",
   },
   {
     icon: Users,
-    value: "50,000+",
+    value: "1,00,000+",
     label: "Active Participants",
     color: "from-violet-600 to-indigo-600",
   },
@@ -40,7 +40,7 @@ const stats: Stat[] = [
   },
   {
     icon: Trophy,
-    value: "$2M+",
+    value: "$50,000+",
     label: "Prize Money Awarded",
     color: "from-amber-500 to-orange-600",
   },

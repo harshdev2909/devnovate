@@ -11,91 +11,57 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 // Mock data for a single event
 const event = {
   id: "1",
-  title: "Global AI Hackathon",
+  title: "BuildWithIndia",
   description: "Build innovative AI solutions to real-world problems",
   longDescription:
     "Join the Global AI Hackathon and collaborate with developers, designers, and AI enthusiasts from around the world to build innovative solutions to real-world problems. This virtual event brings together participants from diverse backgrounds to create cutting-edge AI applications that can make a positive impact on society.",
-  startDate: "2025-04-15T09:00:00",
-  endDate: "2025-04-17T18:00:00",
-  registrationDeadline: "2025-04-10T23:59:59",
-  location: "Virtual",
-  prizePool: "$50,000",
-  participants: 1200,
+  startDate: "2025-02-15T09:00:00",
+  endDate: "2025-03-15T18:00:00",
+  registrationDeadline: "2025-03-07T23:59:59",
+  location: "Google Office Gurgaon",
+  prizePool: "$25,000",
+  participants: 25000,
   organizer: {
-    name: "AI Innovation Foundation",
-    logo: "/placeholder.svg?height=50&width=50",
+    name: "HackWithIndia",
+    logo: "/logo/HWI Black.svg?height=50&width=50",
     description: "A non-profit organization dedicated to advancing AI research and applications.",
   },
-  tags: ["AI", "Machine Learning", "Virtual"],
-  image: "/placeholder.svg?height=400&width=800",
+  tags: ["AI", "Machine Learning", "Virtual","Web3"],
+  image: "/Home/12.png?height=400&width=800",
   schedule: [
+    
+    
     {
-      date: "April 15, 2025",
-      events: [
-        {
-          time: "09:00 - 10:00",
-          title: "Opening Ceremony",
-          description: "Welcome address and introduction to the hackathon",
-        },
-        { time: "10:00 - 11:00", title: "Team Formation", description: "Networking and team formation session" },
-        {
-          time: "11:00 - 12:00",
-          title: "Workshop: AI Ethics",
-          description: "Discussion on ethical considerations in AI development",
-        },
-        { time: "12:00 - 13:00", title: "Lunch Break", description: "Virtual networking lunch" },
-        { time: "13:00 - 18:00", title: "Hacking Begins", description: "Start working on your projects" },
-      ],
-    },
-    {
-      date: "April 16, 2025",
-      events: [
-        { time: "09:00 - 10:00", title: "Daily Check-in", description: "Progress updates and announcements" },
-        {
-          time: "10:00 - 11:00",
-          title: "Workshop: AI Tools",
-          description: "Introduction to popular AI development tools",
-        },
-        {
-          time: "11:00 - 12:00",
-          title: "Mentorship Session",
-          description: "One-on-one mentorship with industry experts",
-        },
-        { time: "12:00 - 13:00", title: "Lunch Break", description: "Virtual networking lunch" },
-        { time: "13:00 - 18:00", title: "Hacking Continues", description: "Continue working on your projects" },
-      ],
-    },
-    {
-      date: "April 17, 2025",
+      date: "March 15, 2025",
       events: [
         { time: "09:00 - 10:00", title: "Final Check-in", description: "Last-minute announcements and tips" },
-        { time: "10:00 - 14:00", title: "Final Hacking Hours", description: "Last stretch to complete your projects" },
-        { time: "14:00 - 16:00", title: "Project Submissions", description: "Submit your projects for judging" },
-        { time: "16:00 - 17:30", title: "Project Presentations", description: "Top teams present their projects" },
-        { time: "17:30 - 18:00", title: "Awards Ceremony", description: "Announcement of winners and prizes" },
+        { time: "10:00 - 12:00", title: "Final Hacking Hours", description: "Last stretch to complete your projects" },
+        { time: "12:00 - 14:00", title: "Project Submissions", description: "Submit your projects for judging" },
+        { time: "14:00 - 15:30", title: "Project Presentations", description: "Top teams present their projects" },
+        { time: "15:30 - 17:00", title: "Awards Ceremony", description: "Announcement of winners and prizes" },
       ],
     },
   ],
   prizes: [
-    { place: "1st Place", amount: "$25,000", description: "Cash prize and mentorship opportunities" },
-    { place: "2nd Place", amount: "$15,000", description: "Cash prize and cloud credits" },
-    { place: "3rd Place", amount: "$10,000", description: "Cash prize and software licenses" },
-    { place: "Best UI/UX", amount: "$5,000", description: "Special category prize" },
-    { place: "Most Innovative", amount: "$5,000", description: "Special category prize" },
+    { place: "1st Place", amount: "$2,000", description: "Cash prize and mentorship opportunities" },
+    { place: "2nd Place", amount: "$1,000", description: "Cash prize and cloud credits" },
+    { place: "3rd Place", amount: "$500", description: "Cash prize and software licenses" },
+    { place: "Best UI/UX", amount: "$200", description: "Special category prize" },
+    { place: "Most Innovative", amount: "$300", description: "Special category prize" },
   ],
   judges: [
     {
-      name: "Dr. Sarah Chen",
-      role: "AI Research Director, Tech Giant Inc.",
+      name: "Mr.Tushar Gupta",
+      role: "Senior Cloud Architech, Google Inc.",
       image: "/placeholder.svg?height=100&width=100",
     },
-    { name: "Michael Rodriguez", role: "CTO, AI Startup", image: "/placeholder.svg?height=100&width=100" },
-    {
-      name: "Prof. James Wilson",
-      role: "Professor of Computer Science, University",
-      image: "/placeholder.svg?height=100&width=100",
-    },
-    { name: "Lisa Johnson", role: "VP of Innovation, Enterprise Corp", image: "/placeholder.svg?height=100&width=100" },
+    { name: "Avrial Bhardwaj", role: "CEO, HackWithIndia", image: "/placeholder.svg?height=100&width=100" },
+    // {
+    //   name: "Prof. James Wilson",
+    //   role: "Professor of Computer Science, University",
+    //   image: "/placeholder.svg?height=100&width=100",
+    // },
+    // { name: "Lisa Johnson", role: "VP of Innovation, Enterprise Corp", image: "/placeholder.svg?height=100&width=100" },
   ],
   sponsors: [
     { name: "Tech Giant Inc.", logo: "/placeholder.svg?height=80&width=160", tier: "Platinum" },
@@ -114,7 +80,7 @@ const event = {
     {
       question: "Do I need to have a team?",
       answer:
-        "No, you can join as an individual and form a team during the event, or you can register with a pre-formed team of up to 5 members.",
+        "No, you can't join as an individual and form a team during the event, or you can register with a pre-formed team of up to 5 members.",
     },
     {
       question: "What kind of projects are expected?",
@@ -175,7 +141,9 @@ export default function EventDetailPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-xl font-bold">Devnovate</span>
+            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500 flex items-center gap-2">
+              <img src="https://devnovate.co/_next/static/media/Devnovate%20Black%20Logo.b3c85ca8.svg" alt="Devnovate Logo" className="h-100 w-60" />
+            </span>
             </Link>
           </div>
           <nav className="hidden md:flex items-center gap-6">
@@ -185,7 +153,7 @@ export default function EventDetailPage() {
             <Link href="/how-it-works" className="text-sm font-medium hover:text-primary">
               How It Works
             </Link>
-            <Link href="/for-organizers" className="text-sm font-medium hover:text-primary">
+            <Link href="/create-event" className="text-sm font-medium hover:text-primary">
               For Organizers
             </Link>
           </nav>
@@ -465,14 +433,14 @@ export default function EventDetailPage() {
                         <Globe className="h-4 w-4 text-muted-foreground" />
                         <div>
                           <span className="text-sm font-medium">Event Type</span>
-                          <p className="text-sm text-muted-foreground">Virtual</p>
+                          <p className="text-sm text-muted-foreground">Hybrid</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-2">
                         <Users className="h-4 w-4 text-muted-foreground" />
                         <div>
                           <span className="text-sm font-medium">Team Size</span>
-                          <p className="text-sm text-muted-foreground">1-5 members</p>
+                          <p className="text-sm text-muted-foreground">2-5 members</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-2">
@@ -509,7 +477,9 @@ export default function EventDetailPage() {
         <div className="container py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
-              <span className="text-lg font-bold">Devnovate</span>
+            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500 flex items-center gap-2">
+              <img src="https://devnovate.co/_next/static/media/Devnovate%20Black%20Logo.b3c85ca8.svg" alt="Devnovate Logo" className="h-100 w-60" />
+            </span>
             </div>
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} Devnovate. All rights reserved.
