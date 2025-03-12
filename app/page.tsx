@@ -102,7 +102,7 @@ export default function Home() {
             <Link href="/how-it-works" className="text-sm font-medium hover:text-primary transition-colors">
               How It Works
             </Link>
-            <Link href="/for-organizers" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link href="/create-event" className="text-sm font-medium hover:text-primary transition-colors">
               For Organizers
             </Link>
           </motion.nav>
