@@ -82,97 +82,7 @@ const events = [
     image: "/placeholder.svg?height=200&width=400",
     featured: false,
   },
-  {
-    id: "6",
-    title: "FinTech Disrupt",
-    description: "Disrupt the financial industry with innovative solutions",
-    startDate: "2025-09-10",
-    endDate: "2025-09-12",
-    location: "London, UK",
-    prizePool: "$40,000",
-    participants: 850,
-    tags: ["Finance", "FinTech", "In-person"],
-    image: "/placeholder.svg?height=200&width=400",
-    featured: false,
-  },
-  {
-    id: "7",
-    title: "Quantum Computing Challenge",
-    description: "Explore the frontiers of quantum computing applications",
-    startDate: "2025-10-05",
-    endDate: "2025-10-07",
-    location: "Tokyo, Japan",
-    prizePool: "$60,000",
-    participants: 500,
-    tags: ["Quantum", "Computing", "In-person"],
-    image: "/placeholder.svg?height=200&width=400",
-    featured: false,
-  },
-  {
-    id: "8",
-    title: "Smart Cities Hackathon",
-    description: "Build solutions for the cities of tomorrow",
-    startDate: "2025-11-12",
-    endDate: "2025-11-14",
-    location: "Singapore",
-    prizePool: "$38,000",
-    participants: 720,
-    tags: ["IoT", "Smart Cities", "Hybrid"],
-    image: "/placeholder.svg?height=200&width=400",
-    featured: false,
-  },
-  {
-    id: "9",
-    title: "AR/VR Innovation Challenge",
-    description: "Create immersive experiences that push boundaries",
-    startDate: "2025-12-01",
-    endDate: "2025-12-03",
-    location: "Los Angeles, CA",
-    prizePool: "$42,000",
-    participants: 680,
-    tags: ["AR", "VR", "Metaverse", "In-person"],
-    image: "/placeholder.svg?height=200&width=400",
-    featured: false,
-  },
-  {
-    id: "10",
-    title: "Cybersecurity Hackathon",
-    description: "Develop solutions to protect digital infrastructure",
-    startDate: "2026-01-15",
-    endDate: "2026-01-17",
-    location: "Virtual",
-    prizePool: "$32,000",
-    participants: 780,
-    tags: ["Security", "Cybersecurity", "Virtual"],
-    image: "/placeholder.svg?height=200&width=400",
-    featured: false,
-  },
-  {
-    id: "11",
-    title: "Space Tech Challenge",
-    description: "Innovate for space exploration and satellite technology",
-    startDate: "2026-02-10",
-    endDate: "2026-02-12",
-    location: "Houston, TX",
-    prizePool: "$55,000",
-    participants: 550,
-    tags: ["Space", "Aerospace", "In-person"],
-    image: "/placeholder.svg?height=200&width=400",
-    featured: false,
-  },
-  {
-    id: "12",
-    title: "Robotics Innovation Summit",
-    description: "Build the next generation of robotics solutions",
-    startDate: "2026-03-05",
-    endDate: "2026-03-07",
-    location: "Seoul, South Korea",
-    prizePool: "$48,000",
-    participants: 620,
-    tags: ["Robotics", "Automation", "In-person"],
-    image: "/placeholder.svg?height=200&width=400",
-    featured: false,
-  },
+
 ]
 
 // Popular categories with counts
@@ -290,7 +200,9 @@ export default function EventsPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500">Devnovate</span>
+            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500 flex items-center gap-2">
+              <img src="https://devnovate.co/_next/static/media/Devnovate%20Black%20Logo.b3c85ca8.svg" alt="Devnovate Logo" className="h-100 w-60" />
+            </span>
             </Link>
           </div>
           <nav className="hidden md:flex items-center gap-6">
@@ -551,10 +463,10 @@ export default function EventsPage() {
         <div className="container py-12">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
             <div className="col-span-2 lg:col-span-2">
-              <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500 mb-4">
-                Devnovate
-              </h3>
-              <p className="text-sm text-muted-foreground max-w-md">
+            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500 flex items-center gap-2">
+              <img src="https://devnovate.co/_next/static/media/Devnovate%20Black%20Logo.b3c85ca8.svg" alt="Devnovate Logo" className="h-100 w-60" />
+            </span>
+              <p className="text-sm text-muted-foreground max-w-md mt-2">
                 The premier platform for hackathon discovery, organization, and participation. 
                 Connect with innovators, showcase your skills, and build amazing projects together.
               </p>

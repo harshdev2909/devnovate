@@ -18,7 +18,9 @@ export default function CreateEventPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-xl font-bold">Devnovate</span>
+            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500 flex items-center gap-2">
+              <img src="https://devnovate.co/_next/static/media/Devnovate%20Black%20Logo.b3c85ca8.svg" alt="Devnovate Logo" className="h-100 w-60" />
+            </span>
             </Link>
           </div>
           <nav className="hidden md:flex items-center gap-6">
@@ -80,7 +82,7 @@ export default function CreateEventPage() {
                   <CardContent className="space-y-6">
                     <div className="space-y-2">
                       <Label htmlFor="event-name">Event Name</Label>
-                      <Input id="event-name" placeholder="e.g., Global AI Hackathon" />
+                      <Input id="event-name" placeholder="e.g., BuildWithIndia" />
                     </div>
 
                     <div className="space-y-2">
@@ -133,7 +135,7 @@ export default function CreateEventPage() {
 
                     <div className="space-y-2">
                       <Label htmlFor="event-location">Location</Label>
-                      <Input id="event-location" placeholder="e.g., Virtual or San Francisco, CA" />
+                      <Input id="event-location" placeholder="e.g., Virtual or Delhi, INDIA" />
                     </div>
 
                     <div className="space-y-2">
@@ -645,7 +647,7 @@ export default function CreateEventPage() {
                           <div className="grid grid-cols-[1fr_auto] gap-4">
                             <div className="space-y-2">
                               <Label htmlFor="judge-1-name">Judge Name</Label>
-                              <Input id="judge-1-name" placeholder="e.g., Dr. Sarah Chen" />
+                              <Input id="judge-1-name" placeholder="e.g., Harsh Sharma" />
                             </div>
                             <div className="flex items-end">
                               <Button variant="ghost" size="sm" className="text-destructive">
@@ -667,7 +669,7 @@ export default function CreateEventPage() {
                           <div className="grid grid-cols-[1fr_auto] gap-4">
                             <div className="space-y-2">
                               <Label htmlFor="judge-2-name">Judge Name</Label>
-                              <Input id="judge-2-name" placeholder="e.g., Michael Rodriguez" />
+                              <Input id="judge-2-name" placeholder="e.g., Aviral Bhardwaj" />
                             </div>
                             <div className="flex items-end">
                               <Button variant="ghost" size="sm" className="text-destructive">
@@ -703,7 +705,9 @@ export default function CreateEventPage() {
         <div className="container py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
-              <span className="text-lg font-bold">Devnovate</span>
+            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500 flex items-center gap-2">
+              <img src="https://devnovate.co/_next/static/media/Devnovate%20Black%20Logo.b3c85ca8.svg" alt="Devnovate Logo" className="h-100 w-60" />
+            </span>
             </div>
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} Devnovate. All rights reserved.

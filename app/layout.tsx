@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Devnovate - Hackathon Hosting Platform",
   description:
     "Discover, join, and organize hackathons on the most comprehensive platform for developers and innovators.",
-    generator: 'v0.dev'
+    generator: 'Harsh Sharma'
 }
 
 export default function RootLayout({

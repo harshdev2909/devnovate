@@ -10,7 +10,9 @@ export default function SignupPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-muted">
       <Link href="/" className="absolute left-8 top-8 flex items-center gap-2 md:left-12 md:top-12">
-        <span className="text-lg font-bold">Devnovate</span>
+      <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500 flex items-center gap-2">
+              <img src="https://devnovate.co/_next/static/media/Devnovate%20Black%20Logo.b3c85ca8.svg" alt="Devnovate Logo" className="h-100 w-60" />
+            </span>
       </Link>
 
       <Card className="mx-auto w-full max-w-md">
